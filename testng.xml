@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+	<test name="Chrome Registration Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.RegistrationTest"/>
+		</classes>
+	</test>
+	<test name="Chrome Account Activity View Test Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.AccountActivityViewTest"/>
+		</classes>
+	</test>
+	<test name="Chrome Pay Bill Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.BillPayingTest"/>
+		</classes>
+	</test>
+	<test name="Chrome Find Transactions Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.FindTransactionsTest"/>
+		</classes>
+	</test>
+	<test name="Chrome Loan Request Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.LoanRequestTest"/>
+		</classes>
+	</test>
+	<test name="Chrome Open Account Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.OpenNewAccountTest"/>
+		</classes>
+	</test>
+	<test name="Chrome Transfer Funds Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.TransferFundsTest"/>
+		</classes>
+	</test>
+	<test name="Chrome Update Info Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.chrome.UpdateContactInfoTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Registration Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.RegistrationTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Account Activity View Test Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.AccountActivityViewTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Pay Bill Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.BillPayingTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Find Transactions Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.FindTransactionsTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Loan Request Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.LoanRequestTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Open Account Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.OpenNewAccountTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Transfer Funds Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.TransferFundsTest"/>
+		</classes>
+	</test>
+	<test name="MSEdge Update Info Test">
+		<parameter name="username" value="User513"></parameter>
+		<parameter name="password" value="password41"></parameter>
+		<classes>
+			<class name="hr.ferit.mttpp_ui_tests_selenium.msedge.UpdateContactInfoTest"/>
+		</classes>
+	</test>
+</suite>
